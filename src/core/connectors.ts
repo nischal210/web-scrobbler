@@ -2731,4 +2731,10 @@ export default <ConnectorMeta[]>[
 		id: 'tidal.qqdl.site',
 		js: 'tidal.qqdl.site.js',
 	},
+	{
+		label: 'CoreRadio',
+		matches: ['*://coreradio.online/*'],
+		id: 'coreradio',
+		js: 'coreradio.js',
+	},
 ];
